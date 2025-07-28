@@ -11,7 +11,7 @@ def lookup(phone_number):
 def main():
     while True:
         try:
-            phone_number = input("Phone number: ").strip().replace("-", "").replace(" ", "").replace("+", "")
+            phone_number = input("Phone number:+62 896-3060-9424 ").strip().replace("-", "").replace(" ", "").replace("+", "")
         except KeyboardInterrupt:
             return
 
